@@ -1,8 +1,8 @@
 {{R3M}}
-{{$register = Package.Raxon.Org.Log:Init:register()}}
+{{$register = Package.Raxon.Log:Init:register()}}
 {{if(!is.empty($register))}}
-{{Package.Raxon.Org.Log:Import:role.system()}}
-{{Package.Raxon.Org.Log:Import:log.handler()}}
-{{Package.Raxon.Org.Log:Import:log.processor()}}
-{{Package.Raxon.Org.Log:Import:log()}}
+{{Package.Raxon.Log:Import:role.system()}}
+{{Package.Raxon.Log:Import:log.handler()}}
+{{Package.Raxon.Log:Import:log.processor()}}
+{{Package.Raxon.Log:Import:log()}}
 {{/if}}

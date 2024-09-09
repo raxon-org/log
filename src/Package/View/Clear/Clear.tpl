@@ -1,2 +1,2 @@
 {{R3M}}
-{{Package.Raxon.Org.Log:Main:log.clear(flags(), options())}}
+{{Package.Raxon.Log:Main:log.clear(flags(), options())}}
