@@ -1,0 +1,70 @@
+{
+    "Node": {
+        "#class": "System.Config.Log",
+        "type": "object",
+        "property": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "default",
+                "type": "boolean"
+            },
+            {
+                "name": "handler",
+                "type": "array",
+                "relation": true,
+                "is_multiple": true
+            },
+            {
+                "name": "processor",
+                "type": "array",
+                "relation": true,
+                "is_multiple": true
+            },
+            {
+                "name": "channel",
+                "type": "array"
+            },
+            {
+                "name": "options",
+                "type": "object",
+                "property": [
+                    {
+                        "name": "class",
+                        "type": "string"
+                    },
+                    {
+                        "name": "parameters",
+                        "type": "array"
+                    }
+                ],
+                "multiple": false
+            },
+            {
+                "name": "uuid",
+                "type": "uuid"
+            },
+            {
+                "name": "#class",
+                "type": "string"
+            }
+        ]
+    },
+    "is.unique": [
+        "name"
+    ],
+    "relation": [
+        {
+            "type": "one-many",
+            "class": "System.Log.Handler",
+            "attribute": "handler"
+        },
+        {
+            "type": "one-many",
+            "class": "System.Log.Processor",
+            "attribute": "processor"
+        }
+    ]
+}

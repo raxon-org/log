@@ -1,0 +1,19 @@
+{
+    "System": {
+        "Log": {
+            "Processor": [
+                {
+                    "uuid": "d90d10f6-33c8-4aaf-a501-240bce0fcfbe",
+                    "#class": "System.Log.Processor",
+                    "options": {
+                        "class": "Monolog\\Processor\\PsrLogMessageProcessor",
+                        "parameters": [
+                            null,
+                            false
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

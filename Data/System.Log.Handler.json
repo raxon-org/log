@@ -1,0 +1,85 @@
+{
+    "System": {
+        "Log": {
+            "Handler": [
+                {
+                    "uuid": "0a36ca31-458b-40d3-845c-be81b59a0ad0",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}app.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "6b0c9c51-82df-4b02-96e9-70d49e3a7643",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}debug.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "6109eecf-bcf9-46b4-84ec-9d4700422553",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}error.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "840ec725-fee6-4191-a9e1-7bc088f4b321",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}email.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "dc91243b-c7e7-473b-8434-7bfb4cfe727b",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}node.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "4ba5082b-29ec-4641-827b-d59f41f4dd98",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}sql.log",
+                            "DEBUG"
+                        ]
+                    }
+                },
+                {
+                    "uuid": "c7aa2169-7970-4be8-84e3-b7778206ccb1",
+                    "#class": "System.Log.Handler",
+                    "options": {
+                        "class": "Monolog\\Handler\\StreamHandler",
+                        "parameters": [
+                            "{{config('project.dir.log')}}system.log",
+                            "DEBUG"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

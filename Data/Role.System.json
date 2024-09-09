@@ -1,0 +1,247 @@
+{
+  "name": "ROLE_SYSTEM",
+  "rank": 1,
+  "#class": "Account.Role",
+  "permission": [
+    {
+      "name": "System:Log:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:rename",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Processor:rename",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Log:Handler:rename",
+      "#class": "Account.Permission"
+    }
+  ]
+}

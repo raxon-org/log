@@ -1,0 +1,239 @@
+{
+    "System": {
+        "Log": {
+            "Handler": {
+                "count": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "create": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "create_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "list": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "page": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "patch": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "patch_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "put": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "put_many": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "read": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                "record": {
+                    "output": [
+                        {
+                            "role": "ROLE_SYSTEM",
+                            "property": [
+                                "uuid",
+                                "#class",
+                                "options"
+                            ],
+                            "object": {
+                                "options": {
+                                    "multiple": false,
+                                    "output": [
+                                        "class",
+                                        "parameters"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
