@@ -1,14 +1,14 @@
 <?php
-namespace Package\Raxon\Org\Log\Trait;
+namespace Package\Raxon\Log\Trait;
 
-use Raxon\Org\App;
+use Raxon\App;
 
-use Raxon\Org\Exception\FileWriteException;
-use Raxon\Org\Exception\ObjectException;
-use Raxon\Org\Module\Core;
-use Raxon\Org\Module\File;
+use Raxon\Exception\FileWriteException;
+use Raxon\Exception\ObjectException;
+use Raxon\Module\Core;
+use Raxon\Module\File;
 
-use Raxon\Org\Node\Model\Node;
+use Raxon\Node\Model\Node;
 
 use Exception;
 trait Import {

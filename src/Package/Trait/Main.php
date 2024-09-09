@@ -1,14 +1,14 @@
 <?php
-namespace Package\Raxon\Org\Log\Trait;
+namespace Package\Raxon\Log\Trait;
 
-use Raxon\Org\Config;
+use Raxon\Config;
 
-use Raxon\Org\Module\Data;
-use Raxon\Org\Module\File;
+use Raxon\Module\Data;
+use Raxon\Module\File;
 
 use Exception;
 
-use Raxon\Org\Exception\FileWriteException;
+use Raxon\Exception\FileWriteException;
 
 trait Main {
 

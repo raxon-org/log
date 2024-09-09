@@ -1,15 +1,15 @@
 <?php
 
-use Raxon\Org\Module\Data;
-use Raxon\Org\Module\Dir;
-use Raxon\Org\Module\Core;
-use Raxon\Org\Module\Event;
-use Raxon\Org\Module\File;
-use Raxon\Org\Module\Parse;
+use Raxon\Module\Data;
+use Raxon\Module\Dir;
+use Raxon\Module\Core;
+use Raxon\Module\Event;
+use Raxon\Module\File;
+use Raxon\Module\Parse;
 
 /**
- * @throws \Raxon\Org\Exception\FileWriteException
- * @throws \Raxon\Org\Exception\ObjectException
+ * @throws \Raxon\Exception\FileWriteException
+ * @throws \Raxon\Exception\ObjectException
  * @throws \Doctrine\ORM\Exception\ORMException
  * @throws \Doctrine\ORM\ORMException
  * @throws \Doctrine\DBAL\Exception

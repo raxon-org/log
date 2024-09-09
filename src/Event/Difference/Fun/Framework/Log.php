@@ -1,12 +1,12 @@
 <?php
 
-namespace Event\Raxon\Org\Framework;
+namespace Event\Raxon\Framework;
 
-use Raxon\Org\App;
-use Raxon\Org\Config;
+use Raxon\App;
+use Raxon\Config;
 
-use Raxon\Org\Module\File;
-use Raxon\Org\Module\Parse;
+use Raxon\Module\File;
+use Raxon\Module\Parse;
 
 use Exception;
 
@@ -48,7 +48,7 @@ class Log {
             $destination = $parse->compile($destination, [], $object);
             $options['destination'] = $destination;
             if(File::Exist($destination)){
-                \Event\Raxon\Org\Framework\Email::queue(
+                \Event\Raxon\Framework\Email::queue(
                     $object,
                     $action,
                     $options
