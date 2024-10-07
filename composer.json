@@ -9,7 +9,6 @@
         "ext-zlib": "*",
         "ext-iconv": "*",
         "ext-curl": "*",
-        "ext-readline": "*",
         "raxon/framework": "*"
     },
     "license" : "MIT",
