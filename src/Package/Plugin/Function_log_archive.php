@@ -25,7 +25,7 @@ function function_log_archive(Parse $parse, Data $data){
         ;
         $destination = $dir .
             $explode[0] .
-            '."{date(\'Ymd\')}".' .
+            '."{{date(\'Ymd\')}}".' .
             $explode[1] .
             '.zip'
         ;
