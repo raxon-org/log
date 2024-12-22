@@ -29,6 +29,7 @@ function function_log_archive(Parse $parse, Data $data){
             $explode[1] .
             '.zip'
         ;
+        breakpoint($dir);
         $binary = Core::binary($object);
         $execute = $binary . ' zip archive ' . $source . ' ' . $destination;
         $output = false;
