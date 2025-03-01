@@ -8,7 +8,7 @@ use Raxon\Exception\ObjectException;
 use Raxon\Module\Core;
 use Raxon\Module\File;
 
-use Raxon\Node\Model\Node;
+use Raxon\Node\Module\Node;
 
 use Exception;
 trait Import {
