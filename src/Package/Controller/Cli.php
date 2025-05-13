@@ -24,7 +24,7 @@ class Cli extends Controller {
     const INFO = [
         '{{binary()}} raxon/log                     | log options',
         '{{binary()}} raxon/log setup               | Log setup',
-        '{{binary()}} raxon/log archive <archive>   | Zip <archive> into <archive>.{literal}{date(\'Y-m-d H:i:s\')}{/literal}.log.zip',
+        '{{binary()}} raxon/log archive <archive>   | Zip <archive> into <archive>.{{literal}}{{date(\'Y-m-d H:i:s\')}}{{/literal}}.log.zip',
     ];
 
     /**
