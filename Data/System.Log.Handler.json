@@ -8,7 +8,7 @@
                     "options": {
                         "class": "Monolog\\Handler\\StreamHandler",
                         "parameters": [
-                            "{{config('project.dir.log')}}app.log",
+                            "{{config('project.dir.log' + 'project.dir.data')}}app.log",
                             "DEBUG"
                         ]
                     }
