@@ -22,8 +22,7 @@ class Cli extends Controller {
     const DIR = __DIR__ . '/';
     const MODULE_INFO = 'Info';
     const INFO = [
-        '{{binary()}} raxon/log                     | log options',
-        '{{binary()}} raxon/log setup               | Log setup',
+        '{{binary()}} raxon/log                     | log options',        
         '{{binary()}} raxon/log archive <archive>   | Zip <archive> into <archive>.{{literal}}{{date(\'Y-m-d H:i:s\')}}{{/literal}}.log.zip',
     ];
 
